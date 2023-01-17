@@ -1,0 +1,4 @@
+[Configuracoes]
+DriverName=MySQL
+DataBase=tickets
+UserName=tickets
