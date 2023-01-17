@@ -49,7 +49,6 @@ object frmTicket: TfrmTicket
       ParentFont = False
       TabOrder = 4
       OnClick = btnCancelarClick
-      ExplicitLeft = 634
     end
     object btnEditar: TButton
       Left = 484
@@ -98,8 +97,6 @@ object frmTicket: TfrmTicket
       ParentFont = False
       TabOrder = 0
       OnClick = btnNovoClick
-      ExplicitLeft = 403
-      ExplicitTop = 6
     end
     object btnSalvar: TButton
       Left = 634
@@ -116,7 +113,6 @@ object frmTicket: TfrmTicket
       ParentFont = False
       TabOrder = 3
       OnClick = btnSalvarClick
-      ExplicitLeft = 605
     end
   end
   object pgMain: TPageControl
@@ -124,7 +120,7 @@ object frmTicket: TfrmTicket
     Top = 41
     Width = 785
     Height = 343
-    ActivePage = tsNovo
+    ActivePage = tsBuscar
     Align = alClient
     TabOrder = 2
     object tsBuscar: TTabSheet
@@ -337,8 +333,6 @@ object frmTicket: TfrmTicket
         Height = 315
         Align = alClient
         TabOrder = 0
-        ExplicitLeft = 417
-        ExplicitWidth = 360
         object dbgFuncionariosPesquisa: TDBGrid
           Left = 1
           Top = 73
@@ -385,7 +379,6 @@ object frmTicket: TfrmTicket
           Color = clActiveBorder
           ParentBackground = False
           TabOrder = 0
-          ExplicitWidth = 775
           object lblEditFuncionarioNome: TLabeledEdit
             Left = 16
             Top = 30
@@ -417,7 +410,6 @@ object frmTicket: TfrmTicket
             ParentFont = False
             TabOrder = 2
             OnClick = btnFiltrarFuncionarioClick
-            ExplicitTop = -4
           end
           object lblEdtFuncionarioCpf: TLabeledEdit
             Left = 255
@@ -520,6 +512,19 @@ object frmTicket: TfrmTicket
     Height = 24
     Align = alBottom
     TabOrder = 3
+    object lblTotal: TLabel
+      Left = 597
+      Top = 4
+      Width = 28
+      Height = 17
+      Caption = 'Total'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+    end
     object edtTotal: TEdit
       Left = 648
       Top = 1

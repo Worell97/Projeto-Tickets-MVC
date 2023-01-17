@@ -57,6 +57,7 @@ type
     cdsFuncionariocpf: TStringField;
     dsFuncionario: TDataSource;
     cbAtivoInativo: TCheckBox;
+    lblTotal: TLabel;
     procedure FormCreate(Sender: TObject);
     procedure btnEditarClick(Sender: TObject);
     procedure btnInativarClick(Sender: TObject);
