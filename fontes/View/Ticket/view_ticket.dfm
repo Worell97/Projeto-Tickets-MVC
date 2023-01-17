@@ -511,6 +511,12 @@ object frmTicket: TfrmTicket
     Width = 785
     Height = 24
     Align = alBottom
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 3
     object lblTotal: TLabel
       Left = 597
