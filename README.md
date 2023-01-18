@@ -27,3 +27,25 @@ porém, todo o controle é feito com anotações em um caderno.
     2. Caso o usuário cadastrado não possua senha remover a linha Password=xxxxxxxx do arquivo.
 
     3. Após salvar o arquivo se as informações estiverem corretas execute o Tickets_MVC.exe.
+    
+    4. Por padrão está com o usuário 'tickets' sem senha.
+<details>
+  <summary>
+    <h1>Informações sobre o uso</h1>    
+  </summary>  
+  <h2>Funcionarios</h2>
+  <h3>Cadastro</h3>
+  Em Principal -> Cadastros -> Funcionarios.
+  <ul>
+    <li>Clicar no botão "Novo".</li>
+    <li>Preencher os dados necessários.</li>
+    <li>Salvar.</li>
+  </ul>
+  <h3>Edição</h3>
+  Em Principal -> Cadastros -> Funcionarios.
+    1. Selecionar no grid de pesquisa o funcionario a ser editado.
+    2. Clicar no botão "Editar".
+    3. Preencher as alterações necessárias.
+    4. Salvar.
+</details>
+
